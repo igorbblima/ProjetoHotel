@@ -5,12 +5,12 @@
 
 body{
    font-family: 'Trebuchet MS', Helvetica, sans-serif; 
-   background: #fff url(../img/bg.png);
+   background: #fff url(/img/bg.png);
    margin: 15px;
 }
 
 #container{
-   background: #ede9cc url(../img/bg-container.png) top center repeat-y;
+   background: #ede9cc url(/img/bg-container.png) top center repeat-y;
    margin: 0 auto;
    min-width:740px;
    max-width: 1180px;
@@ -25,7 +25,7 @@ body{
 
 #area-logo{
     position: absolute; 
-    background:url(../img/topo-imagem-principal.png) no-repeat;
+    background:url(/img/topo-imagem-principal.png) no-repeat;
     width: 100%;
     height: 250px;
     top: 0;
@@ -38,7 +38,7 @@ body{
    top: 15px; 
    left: 15px;
    z-index: 3;
-   background: url(../img/logo.png) no-repeat;
+   background: url(/img/logo.png) no-repeat;
    width: 151px;
    height: 66px;
    text-indent:  -9000px;
@@ -49,7 +49,7 @@ body{
     position: absolute; 
     top: 0;
     right: 0;
-    background: url(../img/topo-imagem-lateral.png) no-repeat;
+    background: url(/img/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
     z-index: 2; 
@@ -127,14 +127,14 @@ ul#navegacao a:hover{
 #area-principal{
     float: left;
     width: 50%;
-background: url(../img/bg-area-principal.png) top left repeat-x;
+background: url(/img/bg-area-principal.png) top left repeat-x;
 padding: 15px 0px;
 }
 
 #area-lateral{
     float: right;
     width: 50%;
-    background: url(../img/bg-area-lateral.png) top left repeat-x;
+    background: url(/img/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0px;
 }
 
@@ -147,7 +147,7 @@ padding: 15px 0px;
 #rodape{
     clear: both;
     padding: 16px;
-    background:#fff url(../img/bg-rodape.png) repeat-x top;
+    background:#fff url(/img/bg-rodape.png) repeat-x top;
     color: #7d7640;
 }
 
@@ -186,7 +186,7 @@ p{
     font-size: 1em;
     color:#615b2d;
     padding: 5px 0;
-    background: url(/img/ornamento.png) no-repeat center right ;
+    background: url(/img/ornamento.PNG) no-repeat center right ;
 }
 
 #beneficios li:hover{
